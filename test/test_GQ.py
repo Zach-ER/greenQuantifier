@@ -1,8 +1,8 @@
-import geofuncs as GF
-import urlfuncs as URLF
-import pngfuncs as PNGF
-import pointfuncs as PF
-import visfuncs as VF
+import GreenAnalysis.geofuncs as GF
+import GreenAnalysis.urlfuncs as URLF
+import GreenAnalysis.pngfuncs as PNGF
+import GreenAnalysis.pointfuncs as PF
+import GreenAnalysis.visfuncs as VF
 from nose.tools import assert_raises
 
 def test_london_coords():
